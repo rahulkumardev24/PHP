@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Large Form Handling with PHP</title>
+  </head>
+  <body>
+    <form action="./form.php" method="post">
+      <input type="text" placeholder="username" name="username" />
+      <br /><br />
+
+      <input type="email" placeholder="email" name="email" />
+      <br /><br />
+
+      <input type="password" placeholder="password" name="password" />
+      <br /><br />
+
+      <input type="checkbox" name="skills[]" value="php"/> <span>PHP</span>
+      <input type="checkbox" name="skills[]" value="java" /> <span>JAVA</span>
+      <input type="checkbox" name="skills[]" value="dart"/> <span>Dart</span>
+      <input type="checkbox" name="skills[]" value="flutter"/> <span>Flutter</span>
+      <input type="checkbox" name="skills[]" value="node js" /> <span>Node js</span>
+      <br /><br />
+
+      <input type="radio" name="gender" value="male" /><span>Male</span>
+      <input type="radio" name="gender" value="Female" /><span>Female</span>
+
+      <br /><br /><br />
+
+      <select name="city">
+        <option>Select your city</option>
+
+        <option value="bhopal">Bhopal</option>
+        <option value="delhi">Delhi</option>
+        <option value="noida">Noida</option>
+      </select>
+      <br /><br />
+
+      <textarea name="bio"></textarea>
+      <br /><br />
+      <button>Sign up</button>
+    </form>
+  </body>
+</html>
